@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+
+
+
+</head>
+<body>
+
+
+<div class="card">
+<h1>Happy 23rd Birthday 🎉</h1>
+<div class="subtitle">To someone who makes life brighter 💕</div>
+<link rel="stylesheet" href="style.css" />
+
+<nav class="navbar">
+  <ul>
+    <li><a href="kayla.html">Home</a></li>
+    <li><a href="letter.html">Letter To You</a></li>  
+  </ul>  
+</nav>
+<main>
+    <h3> Kayla Zhane Evans </h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia illo accusamus corporis iure neque harum in eaque, ex praesentium error totam enim. Odio quia omnis quas beatae officia non voluptatibus.</p>
+</main>
+
+<div class="gallery">
+    
+<!-- Replace these with your own photos -->
+<img src="birthday-site/images/memory1.jpg" alt="Kayla memory 1">
+<img src="birthday-site/images/memory2.jpg" alt="memory 2">
+<img src="birthday-site/images/memory3.jpg" alt="memory 3">
+<img src="birthday-site/images/memory4.jpg" alt="memory 4">
+<img src="birthday-site/images/memory5.jpg" alt="memory 4">
+<img src="birthday-site/images/memory6.jpg" alt="memory 4">
+</div>
+
+
+<div class="message">
+Wishing you a year filled with laughter, love, and unforgettable moments.
+I’m so grateful for you and all the memories we’ve made — and all the ones still to come. 💖
+</div>
+</div>
+
+
+<script>
+function createHeart() {
+const heart = document.createElement('div');
+heart.classList.add('heart');
+heart.innerHTML = '💗';
+heart.style.left = Math.random() * 100 + 'vw';
+heart.style.animationDuration = (4 + Math.random() * 4) + 's';
+document.body.appendChild(heart);
+
+
+setTimeout(() => heart.remove(), 6000);
+}
+
+
+setInterval(createHeart, 500);
+</script>
+
+
+</body>
+</html>
