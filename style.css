@@ -179,3 +179,8 @@ h1 {
   display: block;
   margin-top: 10px;
 }
+.navbar h3 {
+  font-family: 'Pacifico', cursive; /* your font */
+  font-size: 1.5rem;
+  color: white; /* optional */
+}
